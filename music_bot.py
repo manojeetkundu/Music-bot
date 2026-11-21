@@ -121,4 +121,4 @@ async def get_lyrics(update: Update, context: ContextTypes.DEFAULT_TYPE):
             else:
                 await status_msg.edit_text("😕 Is gaane ke lyrics database mein nahi mile.")
         else:
-            await status_msg.edit_text("❌ Lyrics nahi mile! Artist ya song ki spelling
+            await status_msg.edit_text("❌ Lyrics nahi mile! Artist ya song ki spelling. ") 
